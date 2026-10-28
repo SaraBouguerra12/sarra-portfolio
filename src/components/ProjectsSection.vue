@@ -3,6 +3,35 @@ const projects = [
   
 {
   year: '2026',
+  title: 'Big Data E-commerce Analytics — Olist',
+  description:
+    'A Big Data analytics pipeline built on the Brazilian Olist e-commerce dataset. It combines distributed storage, data ingestion, SQL analytics and KPI visualization to analyze orders, sales, payments, delivery performance and customer reviews.',
+  highlights: [
+    'Distributed storage with Hadoop HDFS',
+    'Data ingestion with Apache Sqoop',
+    'Simulated order-event streaming with Apache Kafka',
+    'Log collection with Apache Flume',
+    'Analytical queries with Apache Hive',
+    'KPI export to MySQL and Python visualizations'
+  ],
+  technologies: [
+    'Hadoop HDFS',
+    'Apache Hive',
+    'Apache Kafka',
+    'Apache Flume',
+    'Apache Sqoop',
+    'MySQL',
+    'Python',
+    'Pandas',
+    'Docker Compose'
+  ],
+  github: 'https://github.com/Sarra08-git/bigdata-olist',
+  note: ''
+},
+
+  
+{
+  year: '2026',
   title: 'DataOps Lab — Reliable Data Pipeline',
   description:
     'A data engineering project that transforms daily sales orders into reliable revenue reports. It combines data validation, cleaning, SQL transformations with dbt and DuckDB, automated tests, CI and data versioning with DVC.',
